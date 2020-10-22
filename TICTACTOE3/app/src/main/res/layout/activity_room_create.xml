@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RoomCreateActivity">
+    <Button
+        android:id="@+id/Board"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/background1"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:freezesText="true"
+        android:hint="Select Room"
+        android:textColorHint="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="italic"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="34dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:gravity="center"
+        android:background="@drawable/background2"
+        android:textAlignment="center"
+        android:textSize="10dp"
+        android:onClick="Help"
+        android:text="@string/help" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/background"
+        android:layout_above="@id/button"
+        android:layout_below="@+id/Board"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background1"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="CREATE ROOM" />
+
+
+
+
+</RelativeLayout>

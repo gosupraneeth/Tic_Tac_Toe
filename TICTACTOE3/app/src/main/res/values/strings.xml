@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TIC TAC TOE</string>
+
+    <string name="single_player">Single Player</string>
+    <string name="online">Multi Player</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="onlineGame">Online</string>
+    <string name="help">Help</string>
+    <string name="about_note">
+        This game is made for "mini project"  by
+        \nG.Praneeth
+        \nA.Shashi Prakash
+        \nR.Naveen
+        \nG.Guru Aakash
+    </string>
+    <string name="about_help">
+        To create the room and to play,\n  click on the create room if you want be a Host of the game \n
+        Other wise you can click on the room name you are able to see in the list, then you will be the guest\n
+        you can play game with host as first move for the first time\n
+        from second play onwards any one can play first\n
+        You can click on PLAY AGAIN to reset the points\n
+        You can click on MENU to come back to rooms\n
+    </string>
+    <string name="play_again">PLAY AGAIN</string>
+</resources>
